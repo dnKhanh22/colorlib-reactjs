@@ -13,6 +13,7 @@ header {
  }
  .navbar-actions{
     color: black;
+   position: relative;  
  }
  .navbar-actions >ul >li {
     display: inline-block;
@@ -29,7 +30,7 @@ header {
  }
  
  .navbar-item:hover .navbar-line{
-    position: absolute;
+    position:absolute;
     height: 2px;
     width: 100%;
     transform: scale(1.2);
