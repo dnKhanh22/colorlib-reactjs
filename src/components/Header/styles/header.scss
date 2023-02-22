@@ -1,0 +1,40 @@
+$navbar-brand:black ;
+header {
+    color: $navbar-brand;
+    background-color:white;
+    line-height: 1.5; 
+    font-size: 16px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ }
+ .navbar-actions{
+    color: black;
+ }
+ .navbar-actions >ul >li {
+    display: inline-block;
+    padding: 0 24px;
+ } 
+.navbar-brand{
+   font-weight: 900;
+}
+
+ .navbar-item > a{
+    text-decoration: none;
+    color:black;
+    position: relative;
+ }
+ 
+ .navbar-item:hover .navbar-line{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    transform: scale(1.2);
+    background-color: #3e64ff;
+    transition: all .5s ease;
+    
+ }
+ 
