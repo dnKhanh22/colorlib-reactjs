@@ -1,16 +1,13 @@
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.1;
-    width: 50%;
-    background: #3e64ff;
+h2{
+    align-items: center;
+    position: relative;
 }
-.home-wapper{
-   
+.container{
+    .home-wapper{
+        padding: 0 100px;
+        margin: 100px;
+        width: 50%;
+        height: 50%;
+        position: absolute;
+    }
 }
-    
-    
-
