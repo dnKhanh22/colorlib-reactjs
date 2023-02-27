@@ -8,7 +8,7 @@ header {
     background-color:white;
     line-height: 1.5; 
     font-size: 16px;
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     width: 100%;
@@ -21,6 +21,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+ }
+ .navbar-actions{
+   margin-right: 30px ;
  }
  .navbar-actions > ul{
     color: black;
@@ -92,10 +95,26 @@ header {
       
    }
    
+}
+
+ .navbar-brand > h1 {
    
+   width: 35px;
+   height: 35px;
+   border-radius: 60%;
+   background-color: #2f80ed;
+   font-weight: bold;
+   margin-left: 20px;
+   padding:  0px 1px 14px 12px;
    
 }
 
+h1{
+  color: white;
+}
+span{
+  color: black;
+}
 
    
    

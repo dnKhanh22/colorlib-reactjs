@@ -29,7 +29,7 @@ const Header = () => {
             <div className="container">
                 <div className="navbar">
                     <div  className="navbar-brand">
-                        <h1><span className="nav-brand">R</span><span>onaldo</span></h1>
+                        <h1>R<span>onaldo</span></h1>
                     </div>
 
                     <div id="nav-act" className="navbar-actions">
