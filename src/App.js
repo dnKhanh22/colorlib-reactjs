@@ -12,16 +12,7 @@ const App = () => {
     <div>
       <Header />
       <Home />
-      {/* <Router>
-        <Header />
-          <Routes>
-            <Route exact path= '/home' element ={<Home/>} />
-            <Route exact path= '/about' element ={<About/>} />
-
-      
-          </Routes>
-
-        </Router> */}
+      <About />
     </div>
   )
 }

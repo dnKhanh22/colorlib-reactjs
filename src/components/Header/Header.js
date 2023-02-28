@@ -34,8 +34,8 @@ const Header = () => {
 
                     <div id="nav-act" className="navbar-actions">
                         <ul>
-                            <li className="navbar-item"><a href="#">Home<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">About<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#home">Home<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#about">About<div className="navbar-line"></div></a></li>
                             <li className="navbar-item"><a href="#">Resume<div className="navbar-line"></div></a></li>
                             <li className="navbar-item"><a href="#">Services<div className="navbar-line"></div></a></li>
                             <li className="navbar-item"><a href="#">Projects<div className="navbar-line"></div></a></li>
