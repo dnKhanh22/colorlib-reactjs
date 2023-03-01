@@ -10,7 +10,7 @@ const Resume = () => {
                         <div id='tab' className=''>
                             <ul>
                                 <li>
-                                    <a herf='#education'>Education</a>
+                                    <a herf="#education">Education</a>
                                 </li>
                                 <li>
                                     <a herf='#experience'>Experience</a>

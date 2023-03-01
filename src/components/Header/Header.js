@@ -36,11 +36,11 @@ const Header = () => {
                         <ul>
                             <li className="navbar-item"><a href="#home">Home<div className="navbar-line"></div></a></li>
                             <li className="navbar-item"><a href="#about">About<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">Resume<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">Services<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">Projects<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">My Blog<div className="navbar-line"></div></a></li>
-                            <li className="navbar-item"><a href="#">Contact<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#resume">Resume<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#services">Services<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#projects">Projects<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#blogs">My Blog<div className="navbar-line"></div></a></li>
+                            <li className="navbar-item"><a href="#contact">Contact<div className="navbar-line"></div></a></li>
                         
                         </ul>
 

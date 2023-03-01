@@ -1,0 +1,38 @@
+#services{
+    .services-wapper{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card-wapper{
+        margin-bottom: 40px;
+        background: rgba(255, 255, 255, 0.1);
+        width: 100%;
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+        transition: 0.3s all ease;
+        padding: 2em;
+        
+    }
+}
+.heading-section{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-top: 8rem;
+}
+.slogan{
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #a9afc3
+}
+
+#services{
+    .card-wapper{
+        desc{
+            
+        }
+    }
+}
