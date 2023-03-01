@@ -1,0 +1,119 @@
+#resume{
+    .resume-wapper{
+        display: grid;
+        display: grid;
+        grid-template-columns: 0.3fr 0.7fr;
+        gap: 0;
+    }
+    
+    .resume-right{
+        .resume-heading{
+            font-weight: 800;
+            font-size: 30px;
+            margin-top: 0;
+            margin-bottom: 2rem;
+            color: #3e64ff;
+        }
+    }
+}
+.resume-left{
+    position: relative;
+    padding: 0 15px;
+
+   
+}
+li{
+    font-weight: 500;
+    list-style: none;
+    color: black;
+    line-height: 1.5;
+    
+}
+li:hover{
+    color:#3e64ff;
+}
+.card{
+    border-bottom: 1px solid #a9afc3;
+    line-height: 2;
+    .content{
+        .date{
+            font-weight: 700;
+            font-size: 16px;
+            color: #3e64ff;
+        }
+        .heading{
+            font-size: 24px;
+            line-height: 1.5;
+            color: black;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        .title{
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 0.4rem;
+            font-weight: 700;
+        }
+        .desc{
+            margin-top: 0;
+            margin-bottom: 1rem;
+            color:#a9afc3;
+        }
+        }
+    }
+#skills{
+    .skills-wapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        .skills-item{
+            box-shadow: 0 0.5rem 1rem #a9afc3;
+            padding: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .title{
+                line-height: 1.5;
+                font-weight: 700;
+                margin-bottom: 1.5em;
+                text-align: center;
+                font-size: 19px;
+                color: black;
+            }
+            
+            }
+        }
+    .others{
+        display: flex;
+        
+        .skills-bar{
+            width: calc(50% - 30%);
+            
+            .bottom{
+                
+                height: 10px;
+                background: #e6e6e6;
+                overflow: visible;
+                border-radius: 0.25rem;
+                box-shadow: none;
+
+                .above{
+                    width: 90%;
+                    box-shadow: none;
+                    height: 100%;
+                    line-height: 1.2;
+                    color: #000000;
+                    font-weight: 600;
+                    position: relative;
+                    overflow: visible;
+                    border-radius: 2px;
+                    background: #3e64ff;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+

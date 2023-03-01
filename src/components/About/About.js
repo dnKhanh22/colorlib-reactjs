@@ -1,6 +1,11 @@
 import React from "react";
 import './styles/about.scss'
 import imga from "../../assets/projects/about.jpg"
+import par1 from "../../assets/projects/partner-1.png"
+import par2 from "../../assets/projects/partner-2.png"
+import par3 from "../../assets/projects/partner-3.png"
+import par4 from "../../assets/projects/partner-4.png"
+import par5 from "../../assets/projects/partner-5.png"
 
 const About = () => {
     return(
@@ -52,11 +57,31 @@ const About = () => {
                     </div>
             </div>
             <div className="partner">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <a href="">
+                        <img src={par1}/>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src={par2}/>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src={par3}/>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src={par4}/>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <img src={par5}/>
+                    </a>
+                </div>
             </div>
         </div>
         </about>
