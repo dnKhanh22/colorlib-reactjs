@@ -1,0 +1,43 @@
+#projects{
+    .projects-wrapper{
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+    .projects-count{
+        padding: 7em 0 3em ;
+        .container{
+            padding: 0 48px;
+            margin: 0 22px;
+        }
+        .projects-count-wrapper{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            .count-item{
+                width: 100%;
+                padding: 30px 20px;
+                box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                .number{
+                    color:#3e64ff ;
+                    font-weight: 700;
+                    font-size: 30px;
+                    display: block;
+                }
+                .title{
+                    font-size: 16px;
+                    color: rgba(0, 0, 0, 0.8);
+                
+                }
+            }
+        }
+    }
+}
+
+    
