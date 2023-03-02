@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Resume from './components/Resume/Resume.js';
 import Services from './components/Services/services';
 import Projects from './components/Projects/projects';
+import Blogs from './components/Blogs/Blogs';
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
 
 
@@ -19,6 +20,7 @@ const App = () => {
       <Resume />
       <Services />
       <Projects />
+      <Blogs />
     </div>
   )
 }
