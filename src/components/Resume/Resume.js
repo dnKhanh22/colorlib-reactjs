@@ -10,16 +10,16 @@ const Resume = () => {
                         <div id='tab' className=''>
                             <ul>
                                 <li>
-                                    <a herf="#education">Education</a>
+                                    <a href="#education">Education</a>
                                 </li>
                                 <li>
-                                    <a herf='#experience'>Experience</a>
+                                    <a href='#experience'>Experience</a>
                                 </li>
                                 <li>
-                                    <a herf='#skills'>Skills</a>
+                                    <a href='#skills'>Skills</a>
                                 </li>
                                 <li>
-                                    <a herf='#awards'>Awards</a>
+                                    <a href='#awards'>Awards</a>
                                 </li>
                             </ul>
                         </div>

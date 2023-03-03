@@ -12,24 +12,32 @@ const Projects = () =>{
            <h2 className='heading-section'>Projects</h2>
            <p className='slogan'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
             <div className='projects-wrapper'>
-                <div className='card-project'>
-                    <a className='card-img'><img src={work1}/></a>
-                </div>
-                <div className='card-project'>
-                    <a className='card-img'><img src={work2}/></a>
-                </div>
-                <div className='card-project'>
-                    <a><img src={work3}/></a>
+                <div className='container'>
+                    <div className='row1'>
+                        <div className='card-project' style={{backgroundImage:`url(${work1})`}}>
+                            {/* <a className='card-img'><img src={work1}/></a> */}
+                        </div>
+                        <div className='card-project'  style={{backgroundImage:`url(${work2})`}}>
+                            {/* <a className='card-img'><img src={work2}/></a> */}
+                        </div>
+                        <div className='card-project'  style={{backgroundImage:`url(${work3})`}}>
+                            {/* <a className='card-img' ><img src={work3}/></a> */}
 
-                </div>
-                <div className='card-project'>
-                    <a><img src={work4}/></a>
-                </div>
-                <div className='card-project'>
-                    <a><img src={work5}/></a>
-                </div>
-                <div className='card-project'>
-                    <a><img src={work6}/></a>
+                        </div>
+                    </div>
+
+                    <div className='row2'>
+              
+                        <div className='card-project' style={{backgroundImage:`url(${work4})`}}>
+                            {/* <a className='card-img'><img src={work4}/></a> */}
+                        </div>
+                        <div className='card-project' style={{backgroundImage:`url(${work5})`}}>
+                            {/* <a className='card-img'><img src={work5}/></a> */}
+                        </div>
+                        <div className='card-project' style={{backgroundImage:`url(${work6})`}}>
+                            {/* <a className='card-img'><img src={work6}/></a> */}
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className='projects-count'>
