@@ -5,9 +5,12 @@ import par1 from "../../assets/projects/partner-1.png"
 import par2 from "../../assets/projects/partner-2.png"
 import par3 from "../../assets/projects/partner-3.png"
 import par4 from "../../assets/projects/partner-4.png"
-import par5 from "../../assets/projects/partner-5.png"
+import par5 from "../../assets/projects/partner-5.png"   
+
 
 const About = () => {
+
+    
     return(
         <about>
 
@@ -50,7 +53,7 @@ const About = () => {
                                     </li>
                                 </ul>
                         <div className="about-projects-count">
-                            <span>120</span>"Project commplete"
+                            <span></span>"Project commplete"
                         </div>
                         <div className="btn-down">download</div>
                         </div>
