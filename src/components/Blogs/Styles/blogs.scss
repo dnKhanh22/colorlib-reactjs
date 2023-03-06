@@ -17,6 +17,14 @@
                     }
                 }
             }
+            .desc{
+                display: flex;
+                flex-direction: column;
+                .span{
+                    color: #3e64ff;
+                    font-weight: 600;
+                }
+            }
              
         }
         

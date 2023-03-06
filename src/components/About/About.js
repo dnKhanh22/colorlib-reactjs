@@ -53,7 +53,7 @@ const About = () => {
                                     </li>
                                 </ul>
                         <div className="about-projects-count">
-                            <span></span>"Project commplete"
+                            <span style={{color:'#3e64ff'}}>120</span> Project completed
                         </div>
                         <div className="btn-down">download</div>
                         </div>

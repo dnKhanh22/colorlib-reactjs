@@ -1,10 +1,10 @@
 #services{
     .services-wapper{
         display: grid;
-        gap: 40px;
+        gap: 30px;
         grid-template-columns: repeat(2, 1fr);
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
         
     }
     .card-wapper{
@@ -14,6 +14,10 @@
         box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
         transition: 0.3s all ease;
         padding: 2em;
+        text-align: center;
+        .icon-light{
+            display:inline-block;
+        }
         
         
     }
@@ -35,8 +39,11 @@
 
 #services{
     .card-wapper{
-        desc{
-            
+        .desc{
+            display:flex;
+            flex-direction: column;
         }
     }
 }
+
+

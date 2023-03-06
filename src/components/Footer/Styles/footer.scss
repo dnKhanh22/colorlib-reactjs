@@ -1,6 +1,6 @@
 #footer{
     
-    background-color: black;
+    // background-color: black;
     padding-top: 3rem;
     padding-bottom: 3rem;
     .footer-wrapper{
@@ -13,12 +13,12 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    // padding-left: 3rem;
+    // padding-right: 3rem;
 
 }
 h4,p{
-    color: #a9afc3;
+    color: black;
 
 }
     
@@ -34,7 +34,7 @@ h4,p{
         font-size: 0.9rem;
         opacity: 0.8;
         font-weight: 700;
-        color: #a9afc3;
+        color: black;
             
        }
     }
@@ -43,8 +43,35 @@ h4,p{
     align-items: center;
     justify-content: center;
     display: flex;
-}
+    span{
+        color:black;
+    }
+    .icon-heart{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        padding: 2px;
+        padding-top: 3px;
 
+    }
+}
+footer{
+    background-color: rgb(182, 179, 179);
+    color:black;
+    .footer-wrapper{
+        .foot-menu{
+            ul{
+                padding-inline-start: 0;
+                .icon-arrow{
+                    width:15px;
+                    height:15px;
+                    display:inline-block;
+                    padding-right: 4px;
+                }
+            }
+        }
+    }
+}
 
 
 

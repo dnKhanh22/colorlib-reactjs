@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
-    const [active, setActive] = useState(true) 
+    const [active, setActive] = useState(false) 
     
     const handleShow = () => {
         setActive(!active)
