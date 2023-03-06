@@ -12,7 +12,7 @@ const Home = () => {
                         <div className="wapper">
                             <span className="subheading">hey! i am</span>
                             <h1>Ronaldo Fredrickson</h1>
-                            <h2>I'm a <span>Front-end.</span></h2>
+                            <h2>I'm a <span className="auto-typing">Front-end.</span></h2>
                             <div className='icon-arrow-down'>
                                 <a href='#resume'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">

@@ -49,6 +49,7 @@
             width: 50%;
             height: auto;
             background: #3e64ff;
+            
         }
         .wapper{
             position: relative;
@@ -66,4 +67,31 @@
     height: 15px;
 
 }
+#home{
+    .wapper{
+        .auto-typing{
+           position: relative;
+        }
+        .auto-typing::after{
+           
+            content: '|';
+            position: absolute;
+            right:0;
+            color:black;
+            background-color: white;
+            width: 100%;
+            animation: typing 3s steps(9) alternate infinite;
 
+        }
+        @keyframes  typing{
+            to{
+                width:0%;
+            }
+        }
+        @keyframes line{
+            50%{
+                color: transparent;
+            }
+        }
+    }
+}
