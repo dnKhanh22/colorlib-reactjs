@@ -12,7 +12,7 @@ const About = () => {
 
     
     return(
-        <about>
+        
 
         <div id="about" className="section">
             <div className="container">
@@ -87,7 +87,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        </about>
+        
     )
 
 }

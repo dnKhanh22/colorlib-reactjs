@@ -12,7 +12,7 @@ const Home = () => {
                         <div className="wapper">
                             <span className="subheading">hey! i am</span>
                             <h1>Ronaldo Fredrickson</h1>
-                            <h2>I'm a <span>Front-end.; Back-end.</span></h2>
+                            <h2>I'm a <span>Front-end.</span></h2>
                         </div>
                        
                         

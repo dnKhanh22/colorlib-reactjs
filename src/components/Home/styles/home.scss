@@ -8,7 +8,11 @@
 
 }
 
-.wapper {
+
+
+    .wapper {
+
+    padding:  200px;
     h1{
         font-size: 60px;
         font-weight: 800;
@@ -21,15 +25,33 @@
         font-weight: 800;
         align-items: center;
     }
-    padding: 300px;
+    
+    span{
+        color: #3e64ff;
+        
+    }
    
 }
+
 .home-wapper{
+    min-height: 100vh;
+    padding-bottom: 0;
     .container{
+        margin-top: 80px;
+        position: relative;
         .overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0.1;
+            width: 50%;
+            height: auto;
+            background: #3e64ff;
         }
         .wapper{
-            display: inline-block;
+            position: relative;
             text-align: center;
             justify-content: center;
         }

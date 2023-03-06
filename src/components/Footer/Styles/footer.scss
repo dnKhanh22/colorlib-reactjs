@@ -1,5 +1,5 @@
 #footer{
-  
+    
     background-color: black;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -23,7 +23,7 @@ h4,p{
 }
     
 .footer-wrapper{
-    grid-template-columns: 1.4fr repeat(3,1fr);
+    grid-template-columns: 2fr repeat(3,1fr);
     justify-items: center;
     gap: 2rem;
     ul{
@@ -35,13 +35,18 @@ h4,p{
         opacity: 0.8;
         font-weight: 700;
         color: #a9afc3;
+            
        }
     }
 }
 .sub-footer{
     align-items: center;
-    position:relative;
+    justify-content: center;
+    display: flex;
 }
+
+
+
 
 
   

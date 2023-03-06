@@ -10,8 +10,8 @@ const Blogs = () =>{
             <div className='container'>
                 <h2 className='heading-section'>Our Blog</h2>
                 <p className='slogan'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-                <div className='blogs-wrapper'>
-                    <div className='card-wrapper'>
+                <div className='row'>
+                    <div className='col-1'>
                         <div className='image'>
                             <a><img src={img1}></img></a>
                         </div>
@@ -29,7 +29,7 @@ const Blogs = () =>{
                             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                         </div>
                     </div>
-                    <div className='card-wrapper'>
+                    <div className='col-1'>
                         <div className='image'>
                             <a><img src={img2}></img></a>
                         </div>
@@ -47,7 +47,7 @@ const Blogs = () =>{
                             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                         </div>
                     </div>
-                    <div className='card-wrapper'>
+                    <div className='col-1'>
                         <div className='image'>
                             <a><img src={img3}></img></a>
                         </div>

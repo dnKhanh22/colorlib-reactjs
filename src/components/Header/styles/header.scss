@@ -3,8 +3,9 @@
 
 
 $navbar-brand:black ;
-header {
-   position:fixed;
+#header {
+   top:0;
+   position: fixed;
     color: $navbar-brand;
     background-color:white;
     line-height: 1.5; 
@@ -14,7 +15,7 @@ header {
     box-sizing: border-box;
     width: 100%;
     height: 80px;
-    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%)
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
     
     
 
@@ -23,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   //  width: 100%;
  }
  .navbar-actions{
    margin-right: 30px ;
@@ -60,18 +62,20 @@ header {
     color:black;
     position: relative;
  }
- 
- .navbar-item:hover .navbar-line{
-    position:absolute;
-    height: 2px;
-    width: 100%;
-    transform: scale(1.2);
-    background-color: #3e64ff;
-    transition: all .5s ease;
+ header{
+   .navbar-item:hover .navbar-line{
+      position:absolute;
+      height: 2px;
+      width: 100%;
+      transform: scale(1.2);
+      background-color: #3e64ff;
+      transition: all .5s ease;
     
- }
+   }
+}
 .navbar-icon{
-
+   position: absolute;
+   right:0;
    width: 28px;
    height: 28px;
    color: black;
