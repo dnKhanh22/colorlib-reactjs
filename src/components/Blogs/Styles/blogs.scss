@@ -20,13 +20,28 @@
             .desc{
                 display: flex;
                 flex-direction: column;
-                .span{
-                    color: #3e64ff;
-                    font-weight: 600;
+                .info{
+                    div{
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        gap: 10px;
+                    }
+                    span{
+                        font-weight: 700;
+                        color: #3e64ff;
+                    }
+                    
                 }
             }
              
         }
         
     }
+}
+.comment{
+    width: 25px;
+    height:25px;
+    display:flex;
+    padding-right: 5px;
 }

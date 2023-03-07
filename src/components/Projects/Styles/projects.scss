@@ -17,7 +17,7 @@
             gap: 30px;
             align-items: center;
             .count-item{
-                width: 100%;
+                // width: 100%;
                 padding: 30px 20px;
                 box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
                 display: flex;
@@ -45,41 +45,126 @@
         
         .row1{
             display:flex;
+                
+            
             .card-project{
+                position:relative;
                 width: 33%;
                 padding-top: 40%;
                 background-repeat: no-repeat;
                 background-size: cover;
-            }
+                .overlay{
+                    height: 100%;
+                    position: absolute;
+                    z-index: 2;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background: #3e64ff;
+                    opacity: 0.7;
+                    width: 100%;
+                    display:none;
+                    
+                }
+                .desc{
+                    z-index: 4;
+                    position:absolute;
+                    flex-direction: column;
+                    justify-content: center;    
+                    align-items: center;
+                    top: 50%;
+                    left: 0;
+                    right: 0;
+                    transform: translate(0, -50%);
+                    visibility: hidden;
+
+                }
+                &:hover{
+                    
+                    .overlay{
+                        display:block;
+                    }
+                    h3,p{
+                        color:white;
+                        font-weight: 700;
+                        position:relative;
+                        visibility: visible;
+                    }
+                    
+                 }
+                    
+             }
+                
+                    
+            
         }
         .row2{
             display:flex;
             .card-project{
+                position:relative;       
                 width: 33%;
                 padding-top: 40%;
                 background-repeat: no-repeat;
                 background-size: cover;
-            }
-            
-        }
-    }
-}
-
-#projects{
-    .project-wrapper{
-        .card-project{
-            width: 33%;
-            padding-top: 120%;
-            
-            a{
-                .card-img{
-                    width: 20%;
-                    height: 350px;
-                    object-fit: cover;
+                .overlay{
+                    height: 100%;
+                    position: absolute;
+                    z-index: 2;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background: #3e64ff;
+                    opacity: 0.7;
+                    width: 100%;
+                    display:none;
+                }
+                
+                .desc{
+                    z-index:4;
+                    position:absolute;
+                    flex-direction: column;
+                    justify-content: center;    
+                    align-items: center;
+                    top:50%;
+                    left:0;
+                    right:0;
+                    transform:translate(0, -50%);
+                    visibility: hidden;
+                    
+                    
+                }
+                &:hover{
+                    .overlay{
+                        display:block;
+                    }
+                    h3, p{
+                        position:relative;
+                        color:white;
+                        font-weight: 700;
+                        visibility: visible;
+                    }
                 }
             }
+            
         }
     }
-
 }
+
+// #projects{
+//     .project-wrapper{
+//         .card-project{
+//             width: 33%;
+//             padding-top: 120%;
+            
+            
+//                 .card-img{
+//                     width: 20%;
+//                     height: 350px;
+//                     object-fit: cover;
+//                 }
+            
+//         }
+//     }
+
+// }
     

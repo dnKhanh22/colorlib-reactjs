@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="container">
                         <div className="overlay"></div>
                         <div className="wapper">
-                            <span className="subheading">hey! i am</span>
+                            <span className="subheading">hey! i'am</span>
                             <h1>Ronaldo Fredrickson</h1>
                             <h2>I'm a <span className="auto-typing">Front-end.</span></h2>
                             <div className='icon-arrow-down'>

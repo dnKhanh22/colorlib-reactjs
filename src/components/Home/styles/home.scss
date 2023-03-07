@@ -12,7 +12,7 @@
 
     .wapper {
 
-    padding:  200px;
+    padding: 0 48px;
     h1{
         font-size: 60px;
         font-weight: 800;
@@ -35,10 +35,17 @@
 
 .home-wapper{
     min-height: 100vh;
-    padding-bottom: 0;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
     .container{
-        margin-top: 80px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:100%;
         .overlay{
             position: absolute;
             top: 0;
@@ -49,6 +56,7 @@
             width: 50%;
             height: auto;
             background: #3e64ff;
+            
             
         }
         .wapper{

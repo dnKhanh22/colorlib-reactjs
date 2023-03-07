@@ -5,7 +5,10 @@
             gap: 0;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
+            column-gap: 2rem;
+           
             .contact-card-wrapper{
+                
                 box-shadow: 0 0.5rem 1rem rgb(1 0 0 / 20%);
                 border-radius: 4px;
                 padding: 1.5rem;

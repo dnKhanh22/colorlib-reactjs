@@ -14,13 +14,39 @@ const Projects = () =>{
             <div className='projects-wrapper'>
                 <div className='container'>
                     <div className='row1'>
-                        <div className='card-project' style={{backgroundImage:`url(${work1})`}}>
-                            {/* <a className='card-img'><img src={work1}/></a> */}
-                        </div>
+                        
+                            <div className='card-project' style={{backgroundImage:`url(${work1})`}}>
+                            <div className='overlay'></div>
+
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
+                        {/* <a className='card-img'><img src={work1}/></a> */}
+                            </div>
+                            
+                        
+                        
                         <div className='card-project'  style={{backgroundImage:`url(${work2})`}}>
+                            <div className='overlay'></div>
+
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
                             {/* <a className='card-img'><img src={work2}/></a> */}
                         </div>
+                        
                         <div className='card-project'  style={{backgroundImage:`url(${work3})`}}>
+                            <div className='overlay'></div>
+
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
                             {/* <a className='card-img' ><img src={work3}/></a> */}
 
                         </div>
@@ -29,12 +55,32 @@ const Projects = () =>{
                     <div className='row2'>
               
                         <div className='card-project' style={{backgroundImage:`url(${work4})`}}>
+                            <div className='overlay'></div>
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
                             {/* <a className='card-img'><img src={work4}/></a> */}
                         </div>
                         <div className='card-project' style={{backgroundImage:`url(${work5})`}}>
+                            <div className='overlay'></div>
+
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
                             {/* <a className='card-img'><img src={work5}/></a> */}
                         </div>
                         <div className='card-project' style={{backgroundImage:`url(${work6})`}}>
+                            <div className='overlay'></div>
+
+                                <div className='desc'>
+                                    <h3>Branding & Illustration Design</h3>
+                                    <p>Web Design</p>
+                                </div>
+                        
                             {/* <a className='card-img'><img src={work6}/></a> */}
                         </div>
                     </div>
