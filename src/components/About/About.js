@@ -6,6 +6,7 @@ import par2 from "../../assets/projects/partner-2.png"
 import par3 from "../../assets/projects/partner-3.png"
 import par4 from "../../assets/projects/partner-4.png"
 import par5 from "../../assets/projects/partner-5.png"   
+import { Button } from 'reactstrap'
 
 
 const About = () => {
@@ -55,7 +56,14 @@ const About = () => {
                         <div className="about-projects-count">
                             <span style={{color:'#3e64ff'}}>120</span> Project completed
                         </div>
-                        <div className="btn-down">download</div>
+                        <div className="btn-down">
+                            {/* <Button 
+                                color="primary"
+                                size="lg"
+                            > */}
+                                download
+                            {/* </Button> */}
+                        </div>
                         </div>
                     </div>
             </div>
